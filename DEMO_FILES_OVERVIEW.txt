@@ -1,0 +1,170 @@
+═══════════════════════════════════════════════════════════════
+  AI MEME GENERATOR - FILE OVERVIEW FOR PRESENTATION
+═══════════════════════════════════════════════════════════════
+
+📁 PROJECT STRUCTURE:
+
+AI-Meme-Generator/
+│
+├── 🚀 DEMO LAUNCHERS (START HERE!)
+│   ├── run_demo.bat           ⭐ Windows: Double-click this!
+│   ├── run_demo.sh            ⭐ Mac/Linux: Double-click this!
+│   └── demo_launcher.py       ⭐ Or run: python3 demo_launcher.py
+│
+├── 📖 QUICK START GUIDES
+│   ├── START_HERE.md          ⭐ Read this first!
+│   ├── DEMO_GUIDE.md          ⭐ Complete presentation guide
+│   └── QUICK_START.txt        Simple text instructions
+│
+├── 🎨 DEMO APPLICATION
+│   ├── app_demo.py            Demo web server (no API key)
+│   └── demo_mode.py           Pre-generated captions library
+│
+├── 🔧 MAIN APPLICATION
+│   ├── app.py                 Full Flask application
+│   ├── caption_generator.py   AI caption generation
+│   ├── template_selector.py   Smart template selection
+│   ├── meme_creator.py        Image processing
+│   └── config.py              Configuration management
+│
+├── 📚 DOCUMENTATION
+│   ├── README.md              Technical documentation
+│   ├── USAGE_GUIDE.md         Detailed usage instructions
+│   └── PROJECT_SUMMARY.md     Implementation overview
+│
+├── 🎯 EXAMPLES & TOOLS
+│   ├── example_usage.py       Usage examples + interactive mode
+│   ├── setup.sh               Automated setup script
+│   └── requirements.txt       Python dependencies
+│
+├── 🌐 WEB INTERFACE
+│   ├── templates/
+│   │   └── index.html         Web UI
+│   └── static/
+│       ├── style.css          Styling
+│       └── script.js          Frontend logic
+│
+├── 📊 DATASET
+│   ├── memes.json             81 meme templates (extracted)
+│   └── memes.json.zip         Original dataset archive
+│
+├── 🖼️ OUTPUT
+│   └── generated_memes/       Your created memes saved here
+│
+└── ⚙️ CONFIGURATION
+    ├── .env.example           Environment template
+    └── .gitignore             Git ignore rules
+
+═══════════════════════════════════════════════════════════════
+
+🎯 WHICH FILE TO USE FOR WHAT:
+
+┌───────────────────────────────────────────────────────────────┐
+│ WANT TO...                    │ USE THIS FILE...              │
+├───────────────────────────────────────────────────────────────┤
+│ Run quick demo                │ run_demo.bat / run_demo.sh    │
+│ Understand project            │ START_HERE.md                 │
+│ Prepare presentation          │ DEMO_GUIDE.md                 │
+│ See how it works              │ app_demo.py                   │
+│ Check pre-loaded topics       │ demo_mode.py                  │
+│ Use full version (with AI)    │ app.py                        │
+│ Learn detailed usage          │ USAGE_GUIDE.md                │
+│ Try examples                  │ example_usage.py              │
+│ View templates                │ memes.json                    │
+└───────────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════
+
+📝 FILE SIZES (Approximate):
+
+Small Files (< 10 KB):
+  • config.py, requirements.txt, setup.sh
+  • Static files (HTML, CSS, JS)
+  • Documentation (markdown files)
+
+Medium Files (10-100 KB):
+  • Python modules (app.py, demo_mode.py, etc.)
+  • Example scripts
+
+Large Files:
+  • memes.json (77 MB) - Dataset with 81 templates
+
+═══════════════════════════════════════════════════════════════
+
+🔍 CODE ORGANIZATION:
+
+Core Modules (backend logic):
+  caption_generator.py   → Generates captions using LLM
+  template_selector.py   → Selects appropriate templates
+  meme_creator.py        → Overlays text on images
+  config.py              → Manages configuration
+
+Application Layer:
+  app.py                 → Full version (needs API key)
+  app_demo.py            → Demo version (no API key)
+  
+Demo System:
+  demo_mode.py           → Pre-generated caption library
+  demo_launcher.py       → Auto-setup and launch
+
+Web Interface:
+  templates/index.html   → User interface
+  static/style.css       → Styling
+  static/script.js       → Frontend logic
+
+═══════════════════════════════════════════════════════════════
+
+💻 EXECUTION FLOW:
+
+Demo Mode:
+  run_demo.bat/sh
+       ↓
+  demo_launcher.py (checks dependencies, extracts data)
+       ↓
+  app_demo.py (starts web server)
+       ↓
+  Browser opens → http://localhost:5000
+       ↓
+  User enters topic
+       ↓
+  demo_mode.py (provides caption)
+       ↓
+  template_selector.py (picks template)
+       ↓
+  meme_creator.py (creates image)
+       ↓
+  Meme displayed!
+
+═══════════════════════════════════════════════════════════════
+
+🎓 FOR YOUR PRESENTATION:
+
+Show These Files:
+  1. START_HERE.md          - Overview
+  2. demo_mode.py           - How captions work
+  3. app_demo.py            - Flask application
+  4. template_selector.py   - Template matching logic
+  5. meme_creator.py        - Image processing
+
+Mention These:
+  • 81 templates in memes.json
+  • Modular architecture (4 main modules)
+  • Complete documentation (6 guides)
+  • Both web UI and API access
+
+═══════════════════════════════════════════════════════════════
+
+✨ QUICK REFERENCE:
+
+📱 Run Demo:           run_demo.bat or run_demo.sh
+📖 Read First:         START_HERE.md
+🎤 Presentation Help:  DEMO_GUIDE.md
+💻 View Code:          app_demo.py, demo_mode.py
+📊 Check Templates:    memes.json
+🔧 Troubleshoot:       USAGE_GUIDE.md
+
+═══════════════════════════════════════════════════════════════
+
+Everything is organized and ready for your presentation!
+
+═══════════════════════════════════════════════════════════════
